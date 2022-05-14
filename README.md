@@ -33,7 +33,7 @@ DiscoIP V2.bat 을 우클릭 > 편집으로 가주세요  <br/><br/>
 ``` batch
 Rem Setting 
 SET WEBHOOK_URL=webhooklink
-SET Provide_additional_information=FALSE
+SET Provide_additional_information=TRUE
 ```
 <br/><br/>
 
@@ -48,11 +48,11 @@ SET WEBHOOK_URL=webhooklink
 - 고급 정보 Send (선택)
 
 ``` batch
-SET Provide_additional_information=FALSE
+SET Provide_additional_information=TRUE
 ```
 값이 True 일때 = 날짜,시간, 상대 컴퓨터의 이름, 상대유저의 이름을 포함하여 웹후크를 보냅니다<br/>
 값이 False 일떄 = 상대의 아이피만 보냅니다<br/><br/>
-기본적으로 False 값이 들어가 있기 떄문에 바꿀 필요가 없습니다
+기본적으로 True 값이 들어가 있기 떄문에 바꿀 필요가 없습니다
 <br/><br/>
 
 ## 원천 파일을 EXE로 변환하여 배포파일로 만들기<br/><br/>
