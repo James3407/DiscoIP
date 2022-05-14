@@ -6,7 +6,7 @@ __ __ __ __ __ __ __
 
 <details markdown="1">
 <summary>DiscoIP란?</summary>
-DiscoIP는 저희가 배포하는 기본파일을 당신이 커스텸마이징하고,
+DiscoIP는 저희가 배포하는 원천파일을 당신이 커스텸마이징하고,
 그 파일을 배포하므로 배포파일을 연 사람의 아이피가 당신의 웹훅크로 오는 시스템입니다 
 </details>
 <br/>
