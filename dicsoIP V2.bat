@@ -4,7 +4,7 @@
 
 
 Rem Setting
-SET WEBHOOK_URL=https://ptb.discord.com/api/webhooks/967712632377331772/8XpY3INvKpZgmaf5QbAB2y3Lu0GazTlXmOt_3uGLgzYWhImsBs0h16OmR5XyV2Qj9fPM
+SET WEBHOOK_URL=webhooklink
 SET Provide_additional_information=TRUE
 
 
