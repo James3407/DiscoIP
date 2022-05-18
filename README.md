@@ -6,8 +6,7 @@ __ __ __ __ __ __ __
 
 <details markdown="1">
 <summary>DiscoIP란?</summary>
-DiscoIP는 저희가 배포하는 기본파일을 당신이 커스텸마이징하고,
-그 파일을 배포하므로 배포파일을 연 사람의 아이피가 당신의 웹훅크로 오는 시스템입니다 
+상대방의 파일 클릭 한번으로 상대방의 아이피를 알아내세요!
 </details>
 <br/>
 <details markdown="1">
