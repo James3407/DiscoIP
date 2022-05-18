@@ -9,7 +9,7 @@ __ __ __ __ __ __ __
 상대방의 파일 클릭 한번으로 상대방의 아이피를 알아내세요!<br/>
 DiscoIP는 상대가 EXE 파일을 열면 상대의 아이피가 디스코드 웹훅크로 오는 시스템입니다
 </details>
-<br/>
+
 <details markdown="1">
 <summary>DiscoIP 설명서</summary>
 <br/><br/>
@@ -72,7 +72,6 @@ UAC : 배포파일을 열떄 관리자 권한 요구<br/>
 대부분 컴퓨터는 Curl 이 기본적으로 다운되어 있지만 일부 컴퓨터는 다운되어 있지 않을 수 있습니다<br/>
 [CURL ](https://curl.se/)
 </details>
-<br/>
 <details markdown="1">
 <summary>오류해결</summary>
 <br/>
