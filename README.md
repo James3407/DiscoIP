@@ -72,7 +72,7 @@ UAC : 배포파일을 열떄 관리자 권한 요구<br/>
 대부분 컴퓨터는 Curl 이 기본적으로 다운되어 있지만 일부 컴퓨터는 다운되어 있지 않을 수 있습니다<br/>
 [CURL ](https://curl.se/)
 </details>
-<br/><br/>
+<br/>
 <details markdown="1">
 <summary>오류해결</summary>
 <br/>
