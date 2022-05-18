@@ -58,8 +58,8 @@ SET Provide_additional_information=TRUE
 Option에는 많은 옵션들이 있습니다.주요 옵션에 이것들이 있습니다.<br>
 * ICON : EXE 파일 아이콘 설정
 * UAC : EXE 파일을 사용하기 위해 사용자권한, 관리자권한 요구
-Version Information 에선 EXE 파일의 버전을 자세히 편집할 수 있습니다(필수아님)
 <br/>
+Version Information 에선 EXE 파일의 버전을 자세히 편집할 수 있습니다(필수아님)<br/>
 다 설정하셨다면  Convert 를 눌르고 EXE 파일 이름을 입력하고 저장하면 EXE 파일이 생성됩니다.<br/>
 EXE 파일을 상대에게 보내보세요!
 </details>
