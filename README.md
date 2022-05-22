@@ -8,7 +8,8 @@ __ __ __ __ __ __ __
 <summary>DiscoIP란?</summary>
 상대방의 파일 클릭 한번으로 상대방의 아이피를 알아내세요!<br/>
 DiscoIP는 상대가 EXE 파일을 열면 상대의 아이피가 디스코드 웹훅크로 오는 시스템입니다<br/>
-[image] (https://media.discordapp.net/attachments/975001860219998250/977787715875639306/unknown.png)
+
+![](https://media.discordapp.net/attachments/975001860219998250/977787715875639306/unknown.png)
 </details>
 
 <details markdown="1">
